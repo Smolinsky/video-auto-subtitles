@@ -29,6 +29,5 @@ node_modules
 dist
 build
 .github
-5
 .venv/
 *.pyc
