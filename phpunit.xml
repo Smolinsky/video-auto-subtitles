@@ -19,7 +19,6 @@
     </source>
     <php>
         <env name="APP_ENV" value="testing" force="true"/>
-        <env name="APP_KEY" value="base64:YG1V+wZSck+SHv8lwaD7efaSGHRKCrOQQncE4dQp3VE="/>
         <env name="APP_CONFIG_CACHE" value="/tmp/video-auto-subtitles-phpunit-config.php" force="true"/>
         <env name="APP_MAINTENANCE_DRIVER" value="file"/>
         <env name="BCRYPT_ROUNDS" value="4"/>

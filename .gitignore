@@ -31,3 +31,5 @@ build
 __pycache__/
 .venv/
 *.pyc
+.github
+5

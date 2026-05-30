@@ -25,8 +25,11 @@ abstract class TestCase extends BaseTestCase
 
     private function forceSafeTestEnvironment(): void
     {
+        $testAppKey = 'base64:'.base64_encode(random_bytes(32));
+
         foreach ([
             'APP_ENV' => 'testing',
+            'APP_KEY' => $testAppKey,
             'APP_CONFIG_CACHE' => '/tmp/video-auto-subtitles-phpunit-config.php',
             'DB_CONNECTION' => 'sqlite',
             'DB_DATABASE' => ':memory:',
